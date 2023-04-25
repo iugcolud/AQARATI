@@ -10,67 +10,111 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="logo">AQARATI</div>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Apartments</a></li>
-        <li><a href="#">Rooms</a></li>
-        <li><a href="#">lands</a></li>
-        <li><a href="#">chalets</a></li>
-        <li><a href="#">stores</a></li>
-        <li><a href="#">about us</a></li>
-        <li><a href="#">contact</a></li>
-
-
-      </ul>
-    </nav>
-    <div class="buttons">
-      <a href="tel:+1234567890" class="button">Add real estate</a>
-      <a href="#" class="button">Log out</a>
-    </div>
-  </header>
+    <header>
+        <div class="logo">AQARATI</div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Apartments</a></li>
+            <li><a href="#">Rooms</a></li>
+            <li><a href="#">lands</a></li>
+            <li><a href="#">chalets</a></li>
+            <li><a href="#">stores</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">contact</a></li>
+    
+    
+          </ul>
+        </nav>
+        <div class="buttons">
+          <a href="tel:+1234567890" class="button">Add real estate</a>
+          <a href="#" class="button">Log out</a>
+        </div>
+      </header>
 
   <section class="about-us">
     <div class="about">
-      <!--<img src="girl.png" class="pic">-->
+      <img src="images/download.jpg" class="pic">
       <div class="text">
         <h2>About Us</h2>
-             <div class="title">
-              <h1>About my property</h1>
-              <div class="content">
-                <p>Aqary provides up-to-date and reliable information that makes finding the property of your dreams easy and fast. 
-                  Provides information on residential, commercial and rental properties throughout Palestine first..</p>
-               </div>
-                  <p>
-                    If you have just started searching or are ready to make a purchase, Aqari is updated daily to ensure that you have access to 
-                    the latest and most accurate real estate listings. There are features such as providing more than 90% of the areas in Palestine,
-                     social participation and the ability to communicate with local brokers to help you find the property you are looking for, 
-                     linking between the buyer and seller and establishing transparent and clear communication between them to reach the best deal 
-                     between the two parties, which makes the process The whole thing is frictionless, transparent and as financially rewarding as possible.
-                  </p>
-
-                 
-                  <p>
-                    <div class="title">
-                      <h1>Real estate team</h1>
-                    Our goal when shaping real estate is to blend the best of real estate knowledge and technology to develop outstanding solutions and 
-                    services for our clients. Aqary is owned and implemented by Perfecto Software Solutions.
-                  </div>
-                  </p>
-
-              </div>
-
-          </div> 
+        <h5>About my property</h5>
+          <p>Aqary provides up-to-date and reliable information that makes finding the property of your dreams easy and fast. 
+            Provides information on residential, commercial and rental properties throughout Palestine first..
+        </p>
+        <div class="data">
+        <h5>Real estate team</h5>
+           <p> Our goal when shaping real estate is to blend the best of real estate knowledge and technology to develop outstanding solutions and 
+            services for our clients. Aqary is owned and implemented by Perfecto Software Solutions. </p>       
+        </div>
+       
       </div>
-      <div class="B2">
-        <img src="about_realestate_realty.jpg" alt="  ">
     </div>
-    </div>
-
   </section>
 </body>
 </html>
 
  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #ddd;
+}
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #4070f4;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}
