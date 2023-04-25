@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+}
+</style>
+</head>
+<body>
+  <header>
+    <div class="logo">AQARATI</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Apartments</a></li>
+        <li><a href="#">Rooms</a></li>
+        <li><a href="#">lands</a></li>
+        <li><a href="#">chalets</a></li>
+        <li><a href="#">stores</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">contact</a></li>
+
+
+      </ul>
+    </nav>
+    <div class="buttons">
+      <a href="tel:+1234567890" class="button">Add real estate</a>
+      <a href="#" class="button">Log out</a>
+    </div>
+  </header>
+
+<h3>Real estate data</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="The location of the property">The location of the property</label>
+    <input type="text" id="The location of the property" name="The location of the property" placeholder="The address , The city">
+
+    <label for="The type of property">The type of property</label>
+    <input type="text" id="The type of property" name="The type of property" placeholder="Enter the type of property">
+
+    <div>
+    <input type="radio" placeholder="">
+    <label for="">rent </label>
+   
+    <input type="radio" placeholder="">
+    <label for="">sale </label>
+</div>
+
+<br>
+    <label for="The area of ​​the property">The area of ​​the property</label>
+    <input type="text" id="The area of ​​the property" name="The area of ​​the property" placeholder="ُExample: 500 ">
+
+    <label for="The price of the property">The price of the property</label>
+    <input type="text" id="The price of the property" name="The price of the property" placeholder="Example: 5000 ">
+
+    <label for="The currency">The currency</label>
+    <input type="text" id="The currency" name="The currency" placeholder="Example: dollar ">
+
+    <input type="submit" value="Next">
+  </form>
+</div>
+
+</body>
+</html>
